@@ -1,7 +1,7 @@
 # Humaicraft Foundation Roadmap
 
 ## Phase 1 — Foundation
-- [ ] Vision
+- [x] Vision
 - [ ] Mission
 - [ ] Values
 - [ ] Principles
