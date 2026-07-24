@@ -2,7 +2,7 @@
 
 ## Phase 1 — Foundation
 - [x] Vision
-- [ ] Mission
+- [x] Mission
 - [ ] Values
 - [ ] Principles
 - [ ] Manifesto
