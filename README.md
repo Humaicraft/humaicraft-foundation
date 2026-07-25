@@ -67,16 +67,13 @@ See [ROADMAP.md](ROADMAP.md) for current progress and planned phases.
 
 ## Contributing
 
-The initial Foundation is being prepared for its first public review.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing or submitting a change.
 
-Until the contribution process is finalized, please use issues and pull-request discussions to raise questions, identify risks, or suggest improvements. Significant changes to the Foundation should explain:
+Participation in Humaicraft spaces is governed by the [Code of Conduct](CODE_OF_CONDUCT.md). Do not place credentials, personal information, private evidence, or sensitive vulnerability details in public Issues or Pull Requests.
 
-- what problem the change addresses;
-- why the existing text is insufficient;
-- which documents and projects may be affected;
-- how the change preserves Humaicraft's durable commitments.
+Use the Issue templates to report a problem or propose an improvement. Significant changes should explain the problem, recommendation, trade-offs, risks, affected documents, and completion conditions.
 
-A dedicated `CONTRIBUTING.md`, Code of Conduct, issue templates, and pull-request template are planned before the v0.1.0 release.
+Keep each Pull Request focused on one purpose. Useful ideas outside the current goal should be preserved as follow-up Issues rather than silently expanding scope.
 
 ## Status
 
