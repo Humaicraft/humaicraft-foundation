@@ -83,4 +83,8 @@ The current milestone is **v0.1.0 — The First Seed**. The release will establi
 
 ## License
 
-A license will be selected and documented before public release. Until then, no permission to reuse or redistribute repository content should be assumed.
+Unless otherwise noted, the contents of this repository are proposed to be licensed under the [Creative Commons Attribution 4.0 International License](LICENSE) (`CC-BY-4.0`).
+
+This license permits sharing and adaptation, including commercial use, with attribution and an indication of changes. It does not grant rights to third-party trademarks, logos, personal information, or material for which contributors do not hold the necessary rights.
+
+The license choice remains subject to human approval before the repository is made public or v0.1.0 is released.
