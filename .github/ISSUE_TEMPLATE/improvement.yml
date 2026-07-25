@@ -1,0 +1,59 @@
+name: Improvement proposal
+description: Propose a focused improvement to the Humaicraft Foundation
+title: "improvement: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping Humaicraft grow. Please keep the proposal focused and avoid including secrets, personal information, or sensitive security details.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem or opportunity
+      description: What is unclear, missing, inconsistent, unsafe, inaccessible, or difficult to maintain?
+      placeholder: Describe the current situation and who it affects.
+    validations:
+      required: true
+  - type: textarea
+    id: recommendation
+    attributes:
+      label: Recommended change
+      description: Describe the preferred outcome without assuming implementation details that have not been agreed.
+    validations:
+      required: true
+  - type: textarea
+    id: reasoning
+    attributes:
+      label: Reasoning
+      description: Explain why this change fits the Vision, Mission, Values, Principles, Manifesto, or Charter.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: What other approaches could address the problem, and what are their trade-offs?
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact and risks
+      description: Consider affected documents, projects, contributors, compatibility, security, privacy, accessibility, and maintainability.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Validation or completion conditions
+      description: How will we know the change is correct and complete?
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I searched for an existing Issue covering this proposal.
+          required: true
+        - label: I have not included secrets, credentials, personal information, or private evidence.
+          required: true
+        - label: I understand that maintainers may adjust scope or move this proposal to a later milestone.
+          required: true
