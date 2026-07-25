@@ -19,12 +19,13 @@ The active milestone is **v0.1.0 — The First Seed**. Work outside that milesto
 ### Repository and governance
 
 - [x] README entry point — draft ready for review
-- [ ] CONTRIBUTING
-- [ ] CODE_OF_CONDUCT
+- [x] CONTRIBUTING — draft ready for review
+- [x] CODE_OF_CONDUCT — draft ready for review
 - [ ] LICENSE
-- [ ] Issue templates
-- [ ] Pull-request template
+- [x] Issue templates — draft ready for review
+- [x] Pull-request template — draft ready for review
 - [ ] CHANGELOG or Growth Log decision
+- [ ] Dedicated private conduct and security reporting channel
 
 ### Review and release
 
