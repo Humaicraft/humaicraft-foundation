@@ -8,12 +8,11 @@ This project follows [Semantic Versioning](https://semver.org/) for published re
 
 ### Added
 
-- proposed Creative Commons Attribution 4.0 International repository license;
 - initial release notes for v0.1.0.
 
 ### Changed
 
-- clarified the repository license and the need for human approval before publication.
+- adopted the Creative Commons Attribution-ShareAlike 4.0 International repository license following human approval.
 
 ## [0.1.0] — 2026-07-25
 
@@ -24,7 +23,8 @@ This project follows [Semantic Versioning](https://semver.org/) for published re
 - contribution guidance and Code of Conduct in English and Japanese;
 - Pull Request template and focused Issue forms;
 - roadmap for Foundation maturity, repository governance, standards, templates, and product adoption;
-- explicit guidance for human responsibility, AI-assisted work, security, privacy, accessibility, maintainability, reproducibility, review, and documentation.
+- explicit guidance for human responsibility, AI-assisted work, security, privacy, accessibility, maintainability, reproducibility, review, and documentation;
+- Creative Commons Attribution-ShareAlike 4.0 International (`CC-BY-SA-4.0`) license for repository content.
 
 ### Security
 
@@ -34,7 +34,6 @@ This project follows [Semantic Versioning](https://semver.org/) for published re
 ### Known limitations
 
 - v0.1.0 establishes the first reviewable Foundation; it does not yet include detailed standards, reusable repository templates, decision-record processes, or maintainer handbooks;
-- the proposed license requires final human approval before release;
 - private security and conduct reporting channels must be documented before the repository is made public.
 
 [Unreleased]: https://github.com/Humaicraft/humaicraft-foundation/compare/v0.1.0...HEAD
