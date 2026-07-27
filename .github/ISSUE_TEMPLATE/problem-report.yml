@@ -1,0 +1,67 @@
+name: Problem report
+description: Report a contradiction, broken link, unclear statement, translation mismatch, or governance concern
+title: "problem: "
+labels: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please provide enough context to reproduce or understand the problem. Do not include secrets, personal information, confidential reports, or exploit details in a public Issue.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Contradiction or inconsistency
+        - Ambiguous or unclear wording
+        - English and Japanese mismatch
+        - Broken or missing link
+        - Accessibility or inclusion concern
+        - Security or privacy concern without sensitive details
+        - Governance or responsibility concern
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: File, heading, link, or other location where the problem appears.
+      placeholder: foundation/PRINCIPLES.md — Safety Before Speed
+    validations:
+      required: true
+  - type: textarea
+    id: current
+    attributes:
+      label: Current behavior or wording
+      description: Quote only the minimum text necessary or describe the current result.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior or outcome
+      description: What should readers, contributors, or maintainers be able to understand or do instead?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact
+      description: Who or what is affected, and how serious is the problem?
+    validations:
+      required: true
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested correction
+      description: Optional. A proposal is welcome but not required.
+  - type: checkboxes
+    id: confirmations
+    attributes:
+      label: Confirmation
+      options:
+        - label: I checked that this problem is not already reported.
+          required: true
+        - label: I have not included secrets, credentials, personal information, private evidence, or sensitive vulnerability details.
+          required: true
