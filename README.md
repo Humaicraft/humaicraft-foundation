@@ -10,9 +10,31 @@ The goal is not to define every implementation detail. It is to provide a durabl
 
 Build a durable foundation before building products.
 
-Humaicraft exists to help people and AI create software that remains understandable, safe, maintainable, accessible, and valuable for the long term.
+Humaicraft exists to support **Building Better Builders**: helping people and AI create software that remains understandable, safe, maintainable, accessible, and valuable for the long term.
 
 Humans retain judgment, responsibility, and final authority. AI contributes as a teammate that helps explore, verify, document, and improve the work.
+
+## Scope
+
+This repository owns Humaicraft's enduring philosophy and organization-level direction:
+
+- vision, mission, values, and principles;
+- manifesto and charter;
+- shared vocabulary;
+- durable governance boundaries;
+- ecosystem-level responsibility decisions.
+
+## Non-goals
+
+This repository does not own:
+
+- coding conventions or implementation checklists;
+- Git and GitHub procedures;
+- framework-specific guidance;
+- project-specific architecture or requirements;
+- reusable UI components, templates, or packages.
+
+Practical guidance belongs in [`humaicraft-guidelines`](https://github.com/Humaicraft/humaicraft-guidelines). Implementation details remain with the project or shared asset that owns them.
 
 ## Foundation documents
 
@@ -42,6 +64,20 @@ Patterns and Products
 
 The Charter defines durable boundaries. Vision and Mission define direction and purpose. Values describe what matters. Principles guide decisions. Guidelines, standards, patterns, and products turn the Foundation into practice.
 
+## Repository responsibility model
+
+| Layer | Primary responsibility | Typical location |
+| --- | --- | --- |
+| Philosophy | Why Humaicraft exists and what it protects | `humaicraft-foundation` |
+| Standards | How Humaicraft works and builds | `humaicraft-guidelines` |
+| Shared assets | Reusable design and engineering assets | Design system, templates, shared packages |
+| Products | User-facing tools and services | Individual product repositories |
+| Community | Public communication and participation | Website, organization profile, Discussions |
+
+Every Humaicraft repository should clearly state its **Purpose**, **Scope**, **Non-goals**, and **Relationships**.
+
+See [ADR-0001: Repository Responsibility Model](decisions/0001-repository-responsibility-model.md) for the decision, trade-offs, and migration rules.
+
 ## Core commitments
 
 - people and their safety come before implementation convenience;
@@ -58,8 +94,8 @@ The Charter defines durable boundaries. Vision and Mission define direction and 
 
 ```text
 foundation/  Core philosophy and shared vocabulary
+decisions/   Architecture and governance decision records
 identity/    Brand and communication materials (future phase)
-decisions/   Architecture and governance decision records (future phase)
 docs/        Supporting documentation and maintainer guidance (future phase)
 ```
 
@@ -79,12 +115,10 @@ Keep each Pull Request focused on one purpose. Useful ideas outside the current 
 
 Humaicraft Foundation is a living project in active development.
 
-The current milestone is **v0.1.0 — The First Seed**. The release will establish the first reviewable version of the Foundation and the minimum governance needed for others to participate safely.
+**v0.1.0 — The First Seed** established the first reviewable Foundation. The current cleanup work defines repository boundaries and prepares the next stage of the Humaicraft ecosystem.
 
 ## License
 
-Unless otherwise noted, the contents of this repository are proposed to be licensed under the [Creative Commons Attribution 4.0 International License](LICENSE) (`CC-BY-4.0`).
+Unless otherwise noted, the contents of this repository are licensed under the [Creative Commons Attribution-ShareAlike 4.0 International License](LICENSE) (`CC-BY-SA-4.0`).
 
-This license permits sharing and adaptation, including commercial use, with attribution and an indication of changes. It does not grant rights to third-party trademarks, logos, personal information, or material for which contributors do not hold the necessary rights.
-
-The license choice remains subject to human approval before the repository is made public or v0.1.0 is released.
+This license permits sharing and adaptation, including commercial use, with attribution, an indication of changes, and distribution of adaptations under the same license. It does not grant rights to third-party trademarks, logos, personal information, or material for which contributors do not hold the necessary rights.
