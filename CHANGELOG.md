@@ -8,11 +8,14 @@ This project follows [Semantic Versioning](https://semver.org/) for published re
 
 ### Added
 
-- initial release notes for v0.1.0.
+- ADR-0001 defining the responsibility boundaries between Foundation, Guidelines, shared assets, products, and community spaces;
+- a repository contract requiring Purpose, Scope, Non-goals, and Relationships to be explicit.
 
 ### Changed
 
-- adopted the Creative Commons Attribution-ShareAlike 4.0 International repository license following human approval.
+- clarified that Foundation owns enduring philosophy and organization-level direction, while practical guidance belongs in `humaicraft-guidelines`;
+- updated the roadmap to record completion of v0.1.0 and the active responsibility-model cleanup;
+- corrected the README license text to Creative Commons Attribution-ShareAlike 4.0 International (`CC-BY-SA-4.0`).
 
 ## [0.1.0] — 2026-07-25
 
@@ -29,12 +32,12 @@ This project follows [Semantic Versioning](https://semver.org/) for published re
 ### Security
 
 - public templates warn contributors not to disclose credentials, personal information, private evidence, or sensitive vulnerability details;
-- a dedicated private reporting channel remains a release blocker and is tracked in Issue #5.
+- a dedicated private reporting channel remains an operational follow-up and is tracked in Issue #5.
 
 ### Known limitations
 
 - v0.1.0 establishes the first reviewable Foundation; it does not yet include detailed standards, reusable repository templates, decision-record processes, or maintainer handbooks;
-- private security and conduct reporting channels must be documented before the repository is made public.
+- private security and conduct reporting channels remain to be documented.
 
 [Unreleased]: https://github.com/Humaicraft/humaicraft-foundation/compare/v0.1.0...HEAD
 [0.1.0]: https://github.com/Humaicraft/humaicraft-foundation/releases/tag/v0.1.0
