@@ -2,7 +2,7 @@
 
 This roadmap communicates current priorities without turning future ideas into premature commitments.
 
-The active milestone is **v0.1.0 — The First Seed**. Work outside that milestone should normally be recorded for later discussion rather than added to the current scope.
+The completed milestone is **v0.1.0 — The First Seed**. The active cleanup work prepares the Foundation and Guidelines to evolve with clear, independent responsibilities.
 
 ## v0.1.0 — The First Seed
 
@@ -11,36 +11,57 @@ The active milestone is **v0.1.0 — The First Seed**. Work outside that milesto
 - [x] Vision
 - [x] Mission
 - [x] Values
-- [x] Principles — draft ready for review
-- [x] Manifesto — draft ready for review
-- [x] Charter — draft ready for review
-- [x] Glossary — draft ready for review
+- [x] Principles
+- [x] Manifesto
+- [x] Charter
+- [x] Glossary
 
 ### Repository and governance
 
-- [x] README entry point — draft ready for review
-- [x] CONTRIBUTING — draft ready for review
-- [x] CODE_OF_CONDUCT — draft ready for review
-- [ ] LICENSE
-- [x] Issue templates — draft ready for review
-- [x] Pull-request template — draft ready for review
-- [ ] CHANGELOG or Growth Log decision
-- [ ] Dedicated private conduct and security reporting channel
+- [x] README entry point
+- [x] CONTRIBUTING
+- [x] CODE_OF_CONDUCT
+- [x] CC BY-SA 4.0 LICENSE
+- [x] Issue templates
+- [x] Pull-request template
+- [x] CHANGELOG
 
-### Review and release
+### Release
 
+- [x] Publish v0.1.0 release notes
+- [x] Tag v0.1.0
+
+### Remaining operational follow-up
+
+- [ ] Dedicated private conduct and security reporting channel — tracked in Issue #5
 - [ ] Cross-document consistency review
 - [ ] English and Japanese terminology review
 - [ ] Accessibility and inclusive-language review
 - [ ] Governance and human-authority review
-- [ ] Record future improvements as issues
-- [ ] Resolve release-blocking findings
-- [ ] Publish v0.1.0 release notes
-- [ ] Tag v0.1.0
+
+## Cleanup and responsibility model
+
+### Foundation and Guidelines separation
+
+- [x] Record the responsibility-model work in Issue #6
+- [ ] Accept ADR-0001: Repository Responsibility Model
+- [ ] Define Foundation Purpose, Scope, Non-goals, and Relationships
+- [ ] Establish the initial `humaicraft-guidelines` structure
+- [ ] Identify practical guidance that should move out of Foundation
+- [ ] Preserve traceable history for moved content
+- [ ] Align organization and repository entry points
+
+### Completion conditions
+
+- Contributors can determine where a proposed document belongs.
+- Foundation remains focused on enduring philosophy and governance boundaries.
+- Guidelines can evolve independently as practices change.
+- Project-specific requirements remain in their owning repositories.
+- No policy is silently removed or duplicated.
 
 ## Later phases
 
-The order and scope below remain open to review after v0.1.0.
+The order and scope below remain open to review after the responsibility model is accepted.
 
 ### Identity
 
@@ -48,12 +69,12 @@ The order and scope below remain open to review after v0.1.0.
 - Voice and Tone
 - Visual identity guidance
 
-### Architecture and practice
+### Guidelines and practice
 
 - Human and AI collaboration guidance
-- Design and architecture guidelines
-- Documentation strategy
-- ADR and lightweight decision-log practices
+- Development and architecture guidance
+- Security and accessibility guidance
+- Testing, documentation, GitHub, and release practices
 - Maintainer handbook and review playbook
 
 ### Open Craft and community
@@ -62,12 +83,12 @@ The order and scope below remain open to review after v0.1.0.
 - Lessons and Growth Log practices
 - Community spaces and moderation model
 - Public website
-- Reusable guidelines, standards, and patterns
+- Reusable standards, patterns, and assets
 
 ## Roadmap rules
 
 - Safety, correctness, maintainability, accessibility, and reproducibility take priority over schedule pressure.
-- New ideas should not silently expand the active milestone.
-- Review findings are classified as release blockers, next-milestone improvements, or future seeds.
+- New ideas should not silently expand the active work.
+- Review findings are classified as blockers, next-stage improvements, or future seeds.
 - Completed phases and releases are documented before the next milestone begins.
 - The roadmap may change, but changes should be explicit and explain why priorities moved.
