@@ -1,6 +1,6 @@
 # ADR-0001: Repository Responsibility Model
 
-- Status: Proposed
+- Status: Accepted
 - Date: 2026-07-29
 - Decision owners: Humaicraft maintainers
 - Related issue: #6
@@ -93,7 +93,7 @@ If this model proves insufficient, it can be superseded by a later ADR. Rollback
 
 ## Validation
 
-This decision is ready for acceptance when:
+This decision is accepted because:
 
 - a contributor can determine where a proposed document belongs;
 - Foundation and Guidelines describe compatible boundaries;
